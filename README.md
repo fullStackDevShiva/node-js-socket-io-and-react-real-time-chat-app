@@ -36,4 +36,3 @@ For this example, I have implemented chat app with only group chat feature using
 
 2. More functionalities would be added in the future.
 
-Note: Some of the UIs are used as just placeholders with partial implementation.
