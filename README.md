@@ -15,6 +15,7 @@ This project demonstrates how to use socket.io library with node js, express and
 - Socket.IO
 
 ## Functionalities
+For this example, I have implemented chat app with only group chat feature using socket rooms.
 
 1. Join a chat room:
 
