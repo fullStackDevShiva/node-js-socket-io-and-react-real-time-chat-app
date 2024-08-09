@@ -1,33 +1,37 @@
-## Real time chat app using socket.IO, node js and react
+# Real time chat app using socket.IO, node js and react
 
-This project demonstrates how to setup and use Context API in React app.
+This project demonstrates how to use socket.io library with node js, express and react to create a simple real-time chat application.
 
 ## Techstack/Tools used
-
-# Frontend
-
+### Frontend
 - React
 - Typescript
 - Socket.IO Client
 - Vite
 
-# Backend
-
+### Backend
 - Node JS
 - Express JS
 - Socket.IO
 
 ## Functionalities
 
-1. Creating multiple themes for the app by managing global state with Context API. For this example, a header component and a list component are used to switch between the themes.
+1. Join a chat room:
 
-Light Mode:
+![1_join_chatroom](https://github.com/user-attachments/assets/1c73ccd5-3e48-4553-9f89-60b9a92500bb)
 
-![ipad-light](https://github.com/user-attachments/assets/40e17090-fbd4-46f6-a521-c1024947b8a7)
 
-Dark Mode:
+2. Chat room overall UI and message exchanges:
+![2_chatroom_UI](https://github.com/user-attachments/assets/4f905ed3-0cea-425c-b4e3-bfe8d67e1198)
 
-![ipad-dark](https://github.com/user-attachments/assets/e67d16d7-1ca1-4ab1-a4dc-8142140e9643)
+
+3. Admin notifications upon joining the chat room:
+![3_admin_msg_joining](https://github.com/user-attachments/assets/47985d3d-f1b5-4eba-8888-dc7b76a4f012)
+
+
+4. Admin notifications upon leaving the chat room:
+![4_admin_msg_leaving](https://github.com/user-attachments/assets/741de904-4d64-4161-910d-6a901687553f)
+
 
 2. More functionalities would be added in the future.
 
