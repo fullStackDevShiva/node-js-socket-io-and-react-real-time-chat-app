@@ -1,0 +1,175 @@
+.msgRoomContainer {
+    margin: 0 auto;
+    padding:48px 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+  }
+  
+  /* MsgSidebar component */
+  .msgSidebarCol {
+    background: #F5F7F8;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width:25%;
+    margin-right:10px;
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+  }
+  .sideBarTop{
+    background-color: #fff;
+    border: 2px dashed #ACD793;
+    border-radius: 6px;
+    padding:10px;
+  }
+  .roomTitle {
+    font-size: 24px;
+    color: #ACD793;
+    text-align: center;
+    padding:0px !important;
+    margin:0px !important;
+  }  
+  .sidebarMid{
+    background: #fff;
+    border:1px solid #dfdfdf;
+    border-radius: 6px;
+    padding:10px;
+    margin-top:10px;
+    text-align:left;    
+  }
+  .userListHeader{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding:0px 0px 5px 0px;
+    border-bottom: 1px solid #3887BE;
+  }
+  .headerText {
+    font-size: 16px;
+    color: #3887BE;
+    margin:0px;
+  }  
+  .usersList {
+    list-style-type: none;
+    margin-bottom: 60px;
+    margin-top: 0px;    
+    padding-top: 5px;
+    padding-left: 0;
+  }
+  .usersList li {
+    margin-bottom: 10px;
+    color: #2D3250;
+  }
+  .msgSidebarBtn{
+    margin-top:10px;
+  }
+  .msgSidebarBtn button{
+    width:100%;
+    background-color: #fff;
+    color: #2D3250;
+    border: 1px solid #FF7F50;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;   
+    cursor: pointer;
+  }
+
+  .msgSidebarBtn button:hover {
+     background-color: #FF7F50;
+     border: 1px solid transparent;
+     color: #fff;
+  }
+  
+   /* Message body*/
+   .msgBody{
+    background: #F5F7F8;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px 10px;
+    width:75%;
+    margin-left:10px;
+  }
+
+  /* MsgList component */ 
+  .messagesColumn {
+    display:flex;
+    flex-direction: column;
+    background:#fff;
+    height: 60vh;
+    overflow: auto;
+    padding: 20px !important;
+    width: auto;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+  }
+  .message {
+    border-radius: 6px;
+    margin:4px 0px;
+    height:auto;
+    padding: 12px;
+  }
+  .adminMsg{
+    align-self: center;
+    text-align: center;
+    width: max-content;
+    background-color: transparent;
+    border: 1px dashed #FF7F50;
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin:4px 0px;    
+  }
+  .msgSender{
+    font-weight: 600;
+    padding:2px;
+    margin:0px;
+  }
+  .msgText {
+    color: #2D3250;
+    padding:2px;
+    margin:0px;
+  }
+  .adminMsgText{
+    color: #B4B4B8;
+    font-weight: 600;
+    width: auto;
+    padding: 0px;
+    margin:0px;
+  }
+  .msgTimestamp {
+    color: #2D3250;
+    font-size: 12px;
+    margin-top:4px;
+    text-align: right;
+  }
+  
+  /* MsgEditor component */
+  .sendMessageContainer {
+    display:flex;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+  .messageInput {
+    padding: 14px;
+    margin-right: 6px;
+    width: 75%;
+    border-radius: 6px;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+  }
+  .sendMessageContainer button{
+    background-color: #fff;
+    color: #2D3250;
+    border: 1px solid rgb(159, 226, 191); 
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;   
+    cursor: pointer;
+  }
+  .sendMessageContainer button:hover {
+     background-color: rgb(159, 226, 191);;
+     border: 1px solid transparent;
+     color: #fff;
+  }
